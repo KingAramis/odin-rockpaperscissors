@@ -9,6 +9,8 @@
 
 // define function for generating a computer response
 
+
+
 function computerChoice() {
     let computerChoiceString;
     let randomNum = Math.floor((Math.random() * 10));
@@ -97,4 +99,4 @@ function game() {
     return 0;
 }
 
-//let x = game();
+document.onload = game();
