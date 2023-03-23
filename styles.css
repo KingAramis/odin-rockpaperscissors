@@ -1,0 +1,101 @@
+/* Willy Styles */
+
+/* Coolors color pallet */
+:root {
+    --ivory: #F4F9E9;
+    --alabaster-grey: #EEF0EB;
+    --ash-grey: #B4B8AB;
+    --indigo-blue: #284B63;
+    --prussian-blue: #153243;
+    --bittersweet: #FF5A5F;
+}
+
+* {
+    color: var(--ivory);
+}
+
+body {
+    background: url(images/leaves.png) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    background-color: #284B6380;
+    border-radius: 5% 5% 0% 0%;
+    font-size: 4rem;
+    text-align: center;
+    margin: 5rem 0rem 0rem 0rem;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    flex: auto;
+    justify-content: center;
+}
+
+.rps-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.div-img:hover {
+    transform: scale(1.02);
+    border: 2px solid var(--bittersweet);
+}
+
+.rock {
+    background-image: url(images/stones.jpg);
+    background-size: cover;
+    border: 2px solid var(--indigo-blue);
+    width: 10rem;
+    height: 30rem;
+}
+
+.paper {
+    background-image: url(images/paper.jpg);
+    background-size: cover;
+    border: 2px solid var(--indigo-blue);
+    width: 10rem;
+    height: 30rem;
+}
+
+.scissors {
+    background-image: url(images/scissors.jpg);
+    background-size: cover;
+    background-position-x: 25%;
+    border: 2px solid var(--indigo-blue);
+    width: 10rem;
+    height: 30rem;
+}
+
+.btn-score {
+    background-color: #284B6380;
+    border-radius: 0% 0% 5% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 2rem;
+    background-color: #284B63;
+    border: none;
+    border-radius: 5%;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+button:hover {
+    background-color: #153243;
+    color: var(--alabaster-grey);
+}
+
+
+
+

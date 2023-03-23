@@ -97,4 +97,4 @@ function game() {
     return 0;
 }
 
-let x = game();
+//let x = game();
