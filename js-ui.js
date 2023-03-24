@@ -23,6 +23,13 @@ const popup = document.querySelector(".popup");
 const nextBtn = document.querySelector(".next-btn");
 const popupContent = document.querySelector(".popup-content");
 const endBtn = document.querySelector(".end-btn");
+// being-popup variables
+const beginPopup = document.querySelector(".begin-popup");
+const beginBtn = document.querySelector(".begin-btn");
+
+beginBtn.addEventListener('click', function(e) {
+    beginPopup.style.display = "none";
+});
 
 playBtn.addEventListener('click', function(e) {
     playBtn.style.display = "none";
@@ -30,6 +37,7 @@ playBtn.addEventListener('click', function(e) {
     scoreHeader.forEach(element => {
         element.style.display = "block";
     });
+    beginPopup.style.display = "flex";
 });
 
 rock.addEventListener('click', function(e) {
